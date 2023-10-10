@@ -1,0 +1,270 @@
+[{
+  "_id": {
+    "$oid": "6522a8eed4d7138b3c92c222"
+  },
+  "Makh": "KH002",
+  "Tenkh": "Phạm Nguyễn Huyền Trân",
+  "Sdt": "0123456789",
+  "Phai": "Nữ",
+  "Diachi": "25 Bùi Xuân Phái, Quận Tân Phú",
+  "NhanVien": {
+    "Manv": "NV002",
+    "tennv": "Nguyễn Văn A",
+    "Sdtnv": "098765432",
+    "Email": "adm",
+    "Matkhau": "1"
+  },
+  "Dichvu": [
+    {
+      "Madv": "DVU001",
+      "Tendv": "Sửa điện thoại",
+      "Gia": 120000
+    },
+    {
+      "Madv": "DVU003",
+      "Tendv": "Kiêm tra pin",
+      "Gia": 100000
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "6522a90dd4d7138b3c92c223"
+  },
+  "Makh": "KH001",
+  "Tenkh": "Nguyễn Vương Giáng Hạ",
+  "Sdt": "0354103901",
+  "Phai": "Nam",
+  "Diachi": "123 Đường ABC, Quận Tân Phú",
+  "NhanVien": {
+    "Manv": "NV001",
+    "tennv": "Nguyễn Thanh Văn",
+    "Sdtnv": "098765432",
+    "Matkhau": "111111",
+    "Email": "ha@gmail.com"
+  },
+  "Dichvu": [
+    {
+      "Madv": "DVU001",
+      "Tendv": "Sửa điện thoại",
+      "Gia": 100000
+    },
+    {
+      "Madv": "DVU002",
+      "Tendv": "Dán màn hình",
+      "Gia": 100000
+    },
+    {
+      "Madv": "DVU003",
+      "Tendv": "Kiêm tra pin",
+      "Gia": 100000
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "6522a93fd4d7138b3c92c224"
+  },
+  "Makh": "KH001",
+  "Tenkh": "Nguyễn Vương Giáng Hạ",
+  "Sdt": "0354103901",
+  "Phai": "Nam",
+  "Diachi": "123 Đường ABC, Quận Tân Phú",
+  "NhanVien": {
+    "Manv": "NV002",
+    "tennv": "Nguyễn Văn a",
+    "Sdtnv": "098765432",
+    "Matkhau": "111111",
+    "Email": "nguyenvana@gmail.com"
+  },
+  "Dichvu": [
+    {
+      "Madv": "DVU005",
+      "Tendv": "Vệ sinh điện thoại",
+      "Gia": 120000
+    },
+    {
+      "Madv": "DVU002",
+      "Tendv": "Dán màn hình",
+      "Gia": 100000
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "6522a97bd4d7138b3c92c225"
+  },
+  "Makh": "KH003",
+  "Tenkh": "Lê Thành Thái Dương",
+  "Sdt": "0123456789",
+  "Phai": "Nam",
+  "Diachi": "25 Lê Trọng Tấn, Quận Tân Phú",
+  "NhanVien": {
+    "Manv": "NV003",
+    "tennv": "Nguyễn Văn B",
+    "Sdtnv": "098765432",
+    "Email": "nguyenvana@gmail.com",
+    "Matkhau": "111111"
+  },
+  "Dichvu": [
+    {
+      "Madv": "DVU003",
+      "Tendv": "Kiêm tra pin",
+      "Gia": 100000
+    },
+    {
+      "Madv": "DVU008",
+      "Tendv": "Thay pin",
+      "Gia": 100000
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "6522a9b1d4d7138b3c92c226"
+  },
+  "Makh": "KH005",
+  "Tenkh": "Trinh Thanh Phong",
+  "Sdt": "0863457519",
+  "Phai": "Nam",
+  "Diachi": "25 Đường ABC, Quận Tân Phú",
+  "NhanVien": {
+    "Manv": "NV002",
+    "tennv": "Nguyễn Văn A",
+    "Sdtnv": "098765432",
+    "Email": "nguyenvana@gmail.com",
+    "Matkhau": "111111"
+  },
+  "Dichvu": [
+    {
+      "Madv": "DVU001",
+      "Tendv": "Sửa điện thoại",
+      "Gia": 120000
+    },
+    {
+      "Madv": "DVU003",
+      "Tendv": "Kiêm tra pin",
+      "Gia": 100000
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "6522a9f6d4d7138b3c92c227"
+  },
+  "Makh": "KH002",
+  "Tenkh": "Phạm Nguyễn Huyền Trân",
+  "Sdt": "0123456789",
+  "Phai": "Nữ",
+  "Diachi": "25 Bùi Xuân Phái, Quận Tân Phú",
+  "NhanVien": {
+    "Manv": "NV002",
+    "tennv": "Nguyễn Văn A",
+    "Sdtnv": "098765432",
+    "Email": "nguyenvana@gmail.com",
+    "Matkhau": "111111"
+  },
+  "Dichvu": [
+    {
+      "Madv": "DVU002",
+      "Tendv": "Dán màn hình",
+      "Gia": 120000
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "6522aa2ad4d7138b3c92c228"
+  },
+  "Makh": "KH006",
+  "Tenkh": "Hoàng Văn Hậu",
+  "Sdt": "0873541519",
+  "Phai": "Nam",
+  "Diachi": "65 Hoàng Hoa Thám, Quận Tân Phú",
+  "NhanVien": {
+    "Manv": "NV002",
+    "tennv": "Nguyễn Văn A",
+    "Sdtnv": "098765432",
+    "Email": "nguyenvana@gmail.com",
+    "Matkhau": "111111"
+  },
+  "Dichvu": [
+    {
+      "Madv": "DVU003",
+      "Tendv": "Kiêm tra pin",
+      "Gia": 100000
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "6522aa5dd4d7138b3c92c229"
+  },
+  "Makh": "KH007",
+  "Tenkh": "Hoàng Thị Mai Hương",
+  "Sdt": "0886141519",
+  "Phai": "Nữ",
+  "Diachi": "65 Bà Triệu, Quận Tân Phú",
+  "NhanVien": {
+    "Manv": "NV002",
+    "tennv": "Nguyễn Văn A",
+    "Sdtnv": "098765432",
+    "Email": "nguyenvana@gmail.com",
+    "Matkhau": "111111"
+  },
+  "Dichvu": [
+    {
+      "Madv": "DVU001",
+      "Tendv": "Dán màn hình",
+      "Gia": 100000
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "6522aa8cd4d7138b3c92c22a"
+  },
+  "Makh": "KH005",
+  "Tenkh": "Trinh Thanh Phong",
+  "Sdt": "0863457519",
+  "Phai": "Nam",
+  "Diachi": "25 Đường ABC, Quận Tân Phú",
+  "NhanVien": {
+    "Manv": "NV002",
+    "tennv": "Nguyễn Thanh Văn",
+    "Sdtnv": "098765432",
+    "Email": "ha@gmail.com",
+    "Matkhau": "111111"
+  },
+  "Dichvu": [
+    {
+      "Madv": "DVU002",
+      "Tendv": "Dán màn hình",
+      "Gia": 100000
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "6522aad0d4d7138b3c92c22b"
+  },
+  "Makh": "KH003",
+  "Tenkh": "Lê Thành Thái Dương",
+  "Sdt": "0123456789",
+  "Phai": "Nam",
+  "Diachi": "25 Lê Trọng Tấn, Quận Tân Phú",
+  "NhanVien": {
+    "Manv": "NV003",
+    "tennv": "Nguyễn Thanh Văn",
+    "Sdtnv": "098765432",
+    "Email": "ha@gmail.com",
+    "Matkhau": "111111"
+  },
+  "Dichvu": [
+    {
+      "Madv": "DVU008",
+      "Tendv": "Thay pin",
+      "Gia": 100000
+    }
+  ]
+}]
