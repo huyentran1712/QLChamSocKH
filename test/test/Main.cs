@@ -23,5 +23,19 @@ namespace test
             kh.MdiParent = this;
             kh.Show();
         }
+
+        private void nhânViênToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            frm_NhanVien frm = new frm_NhanVien();
+            frm.MdiParent = this;
+            frm.Show();
+        }
+
+        private void thốngKêKháchHàngToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            frm_ThongKeKH frm = new frm_ThongKeKH();
+            frm.MdiParent = this;
+            frm.Show();
+        }
     }
 }
