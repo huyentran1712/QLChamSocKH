@@ -16,8 +16,7 @@ namespace test
 {
     public partial class frm_ThongKeKH : Form
     {
-        private IMongoCollection<BsonDocument> hopDongCollection;
-        private IMongoCollection<BsonDocument> hosoboithuongCollection;
+        private IMongoCollection<BsonDocument> cskh;
         private MongoClient client;
         private IMongoDatabase database;
 
@@ -31,7 +30,7 @@ namespace test
             string connectionString = "mongodb://localhost:27017";
             client = new MongoClient(connectionString);
             database = client.GetDatabase("QLCSKH");
-            hopDongCollection = database.GetCollection<BsonDocument>("CSKH");
+            cskh = database.GetCollection<BsonDocument>("CSKH");
             DateTime startTime = dateTimePicker1.Value;
             DateTime endTime = dateTimePicker2.Value;
 
