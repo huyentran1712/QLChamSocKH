@@ -31,13 +31,6 @@ namespace test
             frm.Show();
         }
 
-        private void thốngKêKháchHàngToolStripMenuItem_Click(object sender, EventArgs e)
-        {
-            frm_ThongKeKH frm = new frm_ThongKeKH();
-            frm.MdiParent = this;
-            frm.Show();
-        }
-
         private void khácToolStripMenuItem_Click(object sender, EventArgs e)
         {
             F_QL frm = new F_QL();
@@ -57,6 +50,20 @@ namespace test
             this.Close();
             F_DangNhap a = new F_DangNhap();
             a.Show();
+        }
+
+        private void thốngKêToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            frm_ThongKe frm = new frm_ThongKe();
+            frm.MdiParent = this;
+            frm.Show();
+        }
+
+        private void dịchVụToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            frm_DichVu frm = new frm_DichVu();
+            frm.MdiParent = this;
+            frm.Show();
         }
     }
 }

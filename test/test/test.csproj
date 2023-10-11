@@ -153,6 +153,12 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="frm_DichVu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_DichVu.Designer.cs">
+      <DependentUpon>frm_DichVu.cs</DependentUpon>
+    </Compile>
     <Compile Include="F_DangNhap.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -166,11 +172,11 @@
     <Compile Include="frm_NhanVien.Designer.cs">
       <DependentUpon>frm_NhanVien.cs</DependentUpon>
     </Compile>
-    <Compile Include="frm_ThongKeKH.cs">
+    <Compile Include="frm_ThongKe.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="frm_ThongKeKH.Designer.cs">
-      <DependentUpon>frm_ThongKeKH.cs</DependentUpon>
+    <Compile Include="frm_ThongKe.Designer.cs">
+      <DependentUpon>frm_ThongKe.cs</DependentUpon>
     </Compile>
     <Compile Include="F_KhachHang.cs">
       <SubType>Form</SubType>
@@ -202,14 +208,17 @@
       <DependentUpon>F_TK.cs</DependentUpon>
     </Compile>
     <Compile Include="TTTK.cs" />
+    <EmbeddedResource Include="frm_DichVu.resx">
+      <DependentUpon>frm_DichVu.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="F_DangNhap.resx">
       <DependentUpon>F_DangNhap.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="frm_NhanVien.resx">
       <DependentUpon>frm_NhanVien.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="frm_ThongKeKH.resx">
-      <DependentUpon>frm_ThongKeKH.cs</DependentUpon>
+    <EmbeddedResource Include="frm_ThongKe.resx">
+      <DependentUpon>frm_ThongKe.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="F_KhachHang.resx">
       <DependentUpon>F_KhachHang.cs</DependentUpon>
