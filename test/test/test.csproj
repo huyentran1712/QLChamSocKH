@@ -172,6 +172,12 @@
     <Compile Include="frm_ThongKeKH.Designer.cs">
       <DependentUpon>frm_ThongKeKH.cs</DependentUpon>
     </Compile>
+    <Compile Include="F_DichVu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="F_DichVu.Designer.cs">
+      <DependentUpon>F_DichVu.cs</DependentUpon>
+    </Compile>
     <Compile Include="F_KhachHang.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -197,6 +203,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="frm_ThongKeKH.resx">
       <DependentUpon>frm_ThongKeKH.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="F_DichVu.resx">
+      <DependentUpon>F_DichVu.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="F_KhachHang.resx">
       <DependentUpon>F_KhachHang.cs</DependentUpon>

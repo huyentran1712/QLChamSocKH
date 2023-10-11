@@ -110,3 +110,4 @@ D:\Documents\HT\HK7\CSDL_NoSQL\BTNhom\NHOM13\QLChamSocKH\test\test\obj\Debug\tes
 D:\Documents\HT\HK7\CSDL_NoSQL\BTNhom\NHOM13\QLChamSocKH\test\test\obj\Debug\test.exe
 D:\Documents\HT\HK7\CSDL_NoSQL\BTNhom\NHOM13\QLChamSocKH\test\test\obj\Debug\test.pdb
 D:\Documents\HT\HK7\CSDL_NoSQL\BTNhom\NHOM13\QLChamSocKH\test\test\obj\Debug\test.frm_ThongKeKH.resources
+D:\Documents\HT\HK7\CSDL_NoSQL\BTNhom\NHOM13\QLChamSocKH\test\test\obj\Debug\test.F_DichVu.resources

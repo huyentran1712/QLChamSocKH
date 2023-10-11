@@ -37,5 +37,12 @@ namespace test
             frm.MdiParent = this;
             frm.Show();
         }
+
+        private void dịchVụToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            F_DichVu kh = new F_DichVu();
+            kh.MdiParent = this;
+            kh.Show();
+        }
     }
 }
