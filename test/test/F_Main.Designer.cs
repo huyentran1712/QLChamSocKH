@@ -1,7 +1,7 @@
 ﻿
 namespace test
 {
-    partial class Main
+    partial class F_Main
     {
         /// <summary>
         /// Required designer variable.
@@ -52,7 +52,7 @@ namespace test
             this.thốngKêToolStripMenuItem});
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
-            this.menuStrip1.Size = new System.Drawing.Size(918, 24);
+            this.menuStrip1.Size = new System.Drawing.Size(1103, 24);
             this.menuStrip1.TabIndex = 1;
             this.menuStrip1.Text = "menuStrip1";
             // 
@@ -68,14 +68,16 @@ namespace test
             // tàiKhoảnToolStripMenuItem1
             // 
             this.tàiKhoảnToolStripMenuItem1.Name = "tàiKhoảnToolStripMenuItem1";
-            this.tàiKhoảnToolStripMenuItem1.Size = new System.Drawing.Size(128, 22);
+            this.tàiKhoảnToolStripMenuItem1.Size = new System.Drawing.Size(180, 22);
             this.tàiKhoảnToolStripMenuItem1.Text = "Tài khoản";
+            this.tàiKhoảnToolStripMenuItem1.Click += new System.EventHandler(this.tàiKhoảnToolStripMenuItem1_Click);
             // 
             // đăngXuấtToolStripMenuItem
             // 
             this.đăngXuấtToolStripMenuItem.Name = "đăngXuấtToolStripMenuItem";
-            this.đăngXuấtToolStripMenuItem.Size = new System.Drawing.Size(128, 22);
+            this.đăngXuấtToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.đăngXuấtToolStripMenuItem.Text = "Đăng xuất";
+            this.đăngXuấtToolStripMenuItem.Click += new System.EventHandler(this.đăngXuấtToolStripMenuItem_Click);
             // 
             // quảnLýToolStripMenuItem
             // 
@@ -90,29 +92,29 @@ namespace test
             // kháchHàngToolStripMenuItem
             // 
             this.kháchHàngToolStripMenuItem.Name = "kháchHàngToolStripMenuItem";
-            this.kháchHàngToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.kháchHàngToolStripMenuItem.Size = new System.Drawing.Size(137, 22);
             this.kháchHàngToolStripMenuItem.Text = "Khách hàng";
             this.kháchHàngToolStripMenuItem.Click += new System.EventHandler(this.kháchHàngToolStripMenuItem_Click);
             // 
             // nhânViênToolStripMenuItem
             // 
             this.nhânViênToolStripMenuItem.Name = "nhânViênToolStripMenuItem";
-            this.nhânViênToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.nhânViênToolStripMenuItem.Size = new System.Drawing.Size(137, 22);
             this.nhânViênToolStripMenuItem.Text = "Nhân viên";
             this.nhânViênToolStripMenuItem.Click += new System.EventHandler(this.nhânViênToolStripMenuItem_Click);
             // 
             // dịchVụToolStripMenuItem
             // 
             this.dịchVụToolStripMenuItem.Name = "dịchVụToolStripMenuItem";
-            this.dịchVụToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.dịchVụToolStripMenuItem.Size = new System.Drawing.Size(137, 22);
             this.dịchVụToolStripMenuItem.Text = "Dịch vụ";
-            this.dịchVụToolStripMenuItem.Click += new System.EventHandler(this.dịchVụToolStripMenuItem_Click);
             // 
             // khácToolStripMenuItem
             // 
             this.khácToolStripMenuItem.Name = "khácToolStripMenuItem";
             this.khácToolStripMenuItem.Size = new System.Drawing.Size(74, 20);
             this.khácToolStripMenuItem.Text = "Nghiệp vụ";
+            this.khácToolStripMenuItem.Click += new System.EventHandler(this.khácToolStripMenuItem_Click);
             // 
             // thốngKêToolStripMenuItem
             // 
@@ -129,15 +131,15 @@ namespace test
             this.thốngKêKháchHàngToolStripMenuItem.Text = "Thống kê khách hàng";
             this.thốngKêKháchHàngToolStripMenuItem.Click += new System.EventHandler(this.thốngKêKháchHàngToolStripMenuItem_Click);
             // 
-            // Main
+            // F_Main
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(918, 549);
+            this.ClientSize = new System.Drawing.Size(1103, 667);
             this.Controls.Add(this.menuStrip1);
             this.IsMdiContainer = true;
             this.MainMenuStrip = this.menuStrip1;
-            this.Name = "Main";
+            this.Name = "F_Main";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Main";
             this.menuStrip1.ResumeLayout(false);

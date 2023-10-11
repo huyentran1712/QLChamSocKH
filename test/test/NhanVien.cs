@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace test
 {
-    class NhanVien
+    public class NhanVien
     {
         public string Manv;
         public string Manv1 { get => Manv; set => Manv = value; }

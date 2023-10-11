@@ -1,7 +1,7 @@
 ﻿
 namespace test
 {
-    partial class DangNhap
+    partial class F_DangNhap
     {
         /// <summary>
         /// Required designer variable.
@@ -89,8 +89,9 @@ namespace test
             this.button1.TabIndex = 6;
             this.button1.Text = "Thoát";
             this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
-            // DangNhap
+            // F_DangNhap
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -101,7 +102,7 @@ namespace test
             this.Controls.Add(this.textBox1);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
-            this.Name = "DangNhap";
+            this.Name = "F_DangNhap";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "DangNhap";
             this.Load += new System.EventHandler(this.DangNhap_Load);

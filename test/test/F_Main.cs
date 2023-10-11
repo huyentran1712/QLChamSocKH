@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace test
 {
-    public partial class Main : Form
+    public partial class F_Main : Form
     {
-        public Main()
+        public F_Main()
         {
             InitializeComponent();
         }
@@ -38,11 +38,25 @@ namespace test
             frm.Show();
         }
 
-        private void dịchVụToolStripMenuItem_Click(object sender, EventArgs e)
+        private void khácToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            F_DichVu kh = new F_DichVu();
-            kh.MdiParent = this;
-            kh.Show();
+            F_QL frm = new F_QL();
+            frm.MdiParent = this;
+            frm.Show();
+        }
+
+        private void tàiKhoảnToolStripMenuItem1_Click(object sender, EventArgs e)
+        {
+            F_TK frm = new F_TK();
+            frm.MdiParent = this;
+            frm.Show();
+        }
+
+        private void đăngXuấtToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            this.Close();
+            F_DangNhap a = new F_DangNhap();
+            a.Show();
         }
     }
 }

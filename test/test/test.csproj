@@ -153,11 +153,11 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="DangNhap.cs">
+    <Compile Include="F_DangNhap.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="DangNhap.Designer.cs">
-      <DependentUpon>DangNhap.cs</DependentUpon>
+    <Compile Include="F_DangNhap.Designer.cs">
+      <DependentUpon>F_DangNhap.cs</DependentUpon>
     </Compile>
     <Compile Include="Dichvu.cs" />
     <Compile Include="frm_NhanVien.cs">
@@ -172,31 +172,38 @@
     <Compile Include="frm_ThongKeKH.Designer.cs">
       <DependentUpon>frm_ThongKeKH.cs</DependentUpon>
     </Compile>
-    <Compile Include="F_DichVu.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="F_DichVu.Designer.cs">
-      <DependentUpon>F_DichVu.cs</DependentUpon>
-    </Compile>
     <Compile Include="F_KhachHang.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="F_KhachHang.Designer.cs">
       <DependentUpon>F_KhachHang.cs</DependentUpon>
     </Compile>
-    <Compile Include="KhachHang.cs" />
-    <Compile Include="KNCSDL.cs" />
-    <Compile Include="Main.cs">
+    <Compile Include="F_QL.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Main.Designer.cs">
-      <DependentUpon>Main.cs</DependentUpon>
+    <Compile Include="F_QL.Designer.cs">
+      <DependentUpon>F_QL.cs</DependentUpon>
+    </Compile>
+    <Compile Include="KhachHang.cs" />
+    <Compile Include="KNCSDL.cs" />
+    <Compile Include="F_Main.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="F_Main.Designer.cs">
+      <DependentUpon>F_Main.cs</DependentUpon>
     </Compile>
     <Compile Include="NhanVien.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <EmbeddedResource Include="DangNhap.resx">
-      <DependentUpon>DangNhap.cs</DependentUpon>
+    <Compile Include="F_TK.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="F_TK.Designer.cs">
+      <DependentUpon>F_TK.cs</DependentUpon>
+    </Compile>
+    <Compile Include="TTTK.cs" />
+    <EmbeddedResource Include="F_DangNhap.resx">
+      <DependentUpon>F_DangNhap.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="frm_NhanVien.resx">
       <DependentUpon>frm_NhanVien.cs</DependentUpon>
@@ -204,14 +211,17 @@
     <EmbeddedResource Include="frm_ThongKeKH.resx">
       <DependentUpon>frm_ThongKeKH.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="F_DichVu.resx">
-      <DependentUpon>F_DichVu.cs</DependentUpon>
-    </EmbeddedResource>
     <EmbeddedResource Include="F_KhachHang.resx">
       <DependentUpon>F_KhachHang.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Main.resx">
-      <DependentUpon>Main.cs</DependentUpon>
+    <EmbeddedResource Include="F_QL.resx">
+      <DependentUpon>F_QL.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="F_Main.resx">
+      <DependentUpon>F_Main.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="F_TK.resx">
+      <DependentUpon>F_TK.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
